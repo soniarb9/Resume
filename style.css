@@ -1,0 +1,14 @@
+#content {
+    text-align: center;
+}
+
+div.education .entry {
+    display: flex;
+    /* text-align: end; */
+    justify-content: space-between;
+    /* margin: .5em;  */
+}
+
+div.education .entry p{
+margin: 0;
+}
