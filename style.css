@@ -1,8 +1,9 @@
 .backgroundGradient {
   background-image: linear-gradient(
     to right,
-    rgba(34, 194, 2, 0.829),
-    rgb(155, 2, 155)
+    rgba(45, 182, 18, 0.986),
+    rgb(96, 18, 100),
+    yellow
   );
   padding-top: 3em;
   padding-bottom: 3em;
