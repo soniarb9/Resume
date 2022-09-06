@@ -1,5 +1,9 @@
 .backgroundGradient {
-  background-image: linear-gradient(to right, green, purple);
+  background-image: linear-gradient(
+    to right,
+    rgba(34, 194, 2, 0.829),
+    rgb(155, 2, 155)
+  );
   padding-top: 3em;
   padding-bottom: 3em;
 }
@@ -97,3 +101,11 @@ div.experience .entry {
 /* div.education .entry p{ */
 /* margin: 0; */
 /* } */
+
+.columnContainer {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
