@@ -1,14 +1,86 @@
+.backgroundGradient {
+  background-image: linear-gradient(to right, green, purple);
+}
+
+#picture {
+  clip-path: circle(30% at 45% 35%);
+  /* overflow: hidden;
+  width: 61em; */
+  height: 10em;
+  /* border-radius: 50%; */
+}
+
+header {
+  /* color: white; */
+  display: flex;
+  justify-content: flex-end;
+
+  /* justify-content: right; */
+  background-color: #333;
+}
+/* 
+header > * {
+  width: 30%;
+} */
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+/* #linkedin {
+  color: white;
+} */
+/* #contact {
+  justify-content: space-between;
+} */
+
 #content {
-    text-align: center;
+  text-align: center;
 }
 
-div.education .entry {
+div.technicalSkills p {
+  /* font-weight: bold; */
+  /* display: inline-flex; */
+}
+
+div.education .entry p {
+  display: flex;
+  /* text-align: end; */
+  justify-content: space-between;
+  /* margin: 0;  */
+}
+
+h2 {
+  margin: 0;
+}
+div.education h2 {
+  margin: 0;
+}
+div.experience p {
+  margin: 0.25em;
+}
+
+div.experience .entry {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+/* div.experience p{ */
+/* display: flex; */
+/* justify-content: space-between; */
+/* } */
+/* div.experience .prof{ */
+/* margin: 0; */
+/* } */
+/* .prof {
     display: flex;
-    /* text-align: end; */
-    justify-content: space-between;
-    /* margin: .5em;  */
+    display:block;s
 }
-
-div.education .entry p{
-margin: 0;
-}
+.exp {
+    text-align: right;
+} */
+/* div.education .entry p{ */
+/* margin: 0; */
+/* } */
