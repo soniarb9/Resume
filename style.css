@@ -18,7 +18,7 @@ header {
   /* color: white; */
   display: flex;
   justify-content: flex-end;
-
+  color: white;
   /* justify-content: right; */
   background-color: #333;
 }
@@ -32,6 +32,11 @@ header > * {
   justify-content: space-around;
   text-align: center;
   padding-top: 2em;
+  color: white;
+}
+
+:any-link {
+  color: white;
 }
 /* #linkedin {
   color: white;
