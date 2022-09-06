@@ -1,22 +1,48 @@
+#border {
+  border-style: double;
+  border-width: 10px;
+  font-family: Verdana, sans-serif;
+}
+
 .backgroundGradient {
   background-image: linear-gradient(
     to right,
     rgba(45, 182, 18, 0.986),
     rgb(96, 18, 100),
-    yellow
+    rgb(196, 196, 6)
   );
-  padding-top: 3em;
+  padding-top: 0.5em;
   padding-bottom: 3em;
 }
 
+/* .strong {
+  color: purple;
+} */
+
 #picture {
   clip-path: circle(30% at 45% 35%);
-  /* height: 10em; */
-  overflow: clip;
-  width: 52em;
+  height: 10em;
+  /* overflow: clip; */
+  /* width: 52em; */
   /* border-radius: 50%; */
   margin-bottom: -6em;
   /* margin-right: 0.9%; */
+}
+
+#portfolioIcon {
+    width: 134px;
+    height: 53px;
+}
+}
+
+#call {
+  width: 70px;
+  height: 50px;
+}
+
+#linkedin {
+  width: 70px;
+  height: 50px;
 }
 
 header {
@@ -26,6 +52,10 @@ header {
   color: white;
   /* justify-content: right; */
   background-color: #333;
+  border-style: solid;
+  border-width: thin;
+  margin: 1em;
+  padding: 1em;
 }
 /* 
 header > * {
@@ -71,6 +101,7 @@ div.education .entry p {
 
 h2 {
   margin: 0;
+  text-align: center;
 }
 div.education h2 {
   margin: 0;
@@ -109,4 +140,8 @@ div.experience .entry {
 
 .column {
   flex: 1;
+  border-right: 0px;
+  border-style: solid;
+  margin-top: 3em;
+  padding-top: 2em;
 }
