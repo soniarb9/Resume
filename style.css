@@ -11,7 +11,7 @@
     rgb(96, 18, 100),
     rgb(196, 196, 6)
   );
-  padding-top: 0.5em;
+  padding-top: 2.5em;
   padding-bottom: 3em;
 }
 
@@ -29,13 +29,17 @@
   /* margin-right: 0.9%; */
 }
 
+p.spaced {
+  padding-inline: 26px;
+}
+
 #portfolioIcon {
   width: 134px;
   height: 53px;
 }
 
 #call {
-  width: 70px;
+  width: 54px;
   height: 50px;
 }
 
@@ -53,7 +57,7 @@ header {
   background-color: #333;
   border-style: solid;
   border-width: thin;
-  margin: 1em;
+  /* margin: 1em; */
   padding: 1em;
 }
 /* 
@@ -101,7 +105,25 @@ div.education .entry p {
 h2 {
   margin: 0;
   text-align: center;
+  position: relative;
 }
+
+h2::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  height: 6px;
+  border-radius: 3px;
+  background: linear-gradient(
+    111.3deg,
+    rgba(45, 182, 18, 0.986) 4%,
+    rgb(96, 18, 100) 47%,
+    rgb(196, 196, 6)
+  );
+}
+
 div.education h2 {
   margin: 0;
 }
@@ -141,6 +163,5 @@ div.experience .entry {
   flex: 1;
   border-right: 0px;
   border-style: solid;
-  margin-top: 3em;
   padding-top: 2em;
 }
