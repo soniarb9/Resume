@@ -1,4 +1,6 @@
 Resume
+
+https://soniarb9.github.io/Resume/
 I created this from scratch with HTML and CSS.
 
 Accessing my inspiration picture: search "fancy resume" on bing images, the Jacklun Mars titled resume is what I based this off of
